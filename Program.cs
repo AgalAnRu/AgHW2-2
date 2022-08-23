@@ -32,6 +32,8 @@ namespace AgHW2_2
                     result /= 5;
                 if (selectedItem == '5')
                     result = 100 - result;
+                if (result % 11 == 0)
+                    Console.WriteLine("Результат кратен 11");
                 if (selectedItem == '6')
                     Console.WriteLine("Результат вычислений: {0}", result);
             }
